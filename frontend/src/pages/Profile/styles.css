@@ -1,0 +1,100 @@
+.profile-page {
+  flex-wrap: wrap;
+
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.profile-page header {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+
+.profile-page header img {
+  height: 64px;
+}
+
+.profile-page header span {
+  margin-left: 24px;
+
+  font-size: 20px;
+}
+
+.profile-page header a {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.profile-page header button {
+  width: 60px;
+  height: 60px;
+  margin-left: 16px;
+
+  background: transparent;
+  border: 1px solid #dcdce6;
+  border-radius: 4px;
+
+  transition: border-color 0.2s;
+}
+
+.profile-page header button:hover {
+  border-color: #999;
+}
+
+.profile-page h1 {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.profile-page ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+
+  width: 100%;
+
+  list-style: none;
+}
+
+.profile-page ul li {
+  padding: 24px;
+
+  background-color: white;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.profile-page ul li button {
+  border: 0;
+
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.profile-page ul  li button:hover {
+  opacity: 0.8;
+}
+
+.profile-page ul li strong {
+  display: block;
+  margin-bottom: 16px;
+  
+  color: #41414d;
+}
+
+.profile-page ul li p + strong {
+  margin-top: 32px;
+}
+
+.profile-page ul li p {
+  color: #737380;
+  font-size: 16px;
+  list-style: 21px;
+}
